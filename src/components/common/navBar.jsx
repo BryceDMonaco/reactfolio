@@ -21,6 +21,7 @@ const NavBar = (props) => {
 							>
 								<Link to="/">Home</Link>
 							</li>
+							{/*Hid about page because it is redundant to the homepage
 							<li
 								className={
 									active === "about"
@@ -30,6 +31,7 @@ const NavBar = (props) => {
 							>
 								<Link to="/about">About</Link>
 							</li>
+							*/}
 							<li
 								className={
 									active === "projects"

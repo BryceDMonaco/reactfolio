@@ -12,9 +12,11 @@ const Footer = () => {
 						<li className="footer-nav-link-item">
 							<Link to="/">Home</Link>
 						</li>
+						{/* Hid About page because it is redudant with homepage
 						<li className="footer-nav-link-item">
 							<Link to="/about">About</Link>
 						</li>
+						*/}
 						<li className="footer-nav-link-item">
 							<Link to="/projects">Projects</Link>
 						</li>
