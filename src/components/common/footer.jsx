@@ -18,9 +18,11 @@ const Footer = () => {
 						<li className="footer-nav-link-item">
 							<Link to="/projects">Projects</Link>
 						</li>
+						{/* Hid Articles page becasue it is unused
 						<li className="footer-nav-link-item">
 							<Link to="/articles">Articles</Link>
 						</li>
+						*/}
 						<li className="footer-nav-link-item">
 							<Link to="/contact">Contact</Link>
 						</li>

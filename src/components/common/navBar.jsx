@@ -39,6 +39,7 @@ const NavBar = (props) => {
 							>
 								<Link to="/projects">Projects</Link>
 							</li>
+							{/* Hid articles tab because it is currently unused
 							<li
 								className={
 									active === "articles"
@@ -47,7 +48,7 @@ const NavBar = (props) => {
 								}
 							>
 								<Link to="/articles">Articles</Link>
-							</li>
+							</li>*/}
 							<li
 								className={
 									active === "contact"

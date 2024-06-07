@@ -156,6 +156,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-after-title">
+							{/* Hid Articles because it is currently unused
 							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
@@ -172,7 +173,7 @@ const Homepage = () => {
 									</div>
 								))}
 							</div>
-
+							*/}
 							<div className="homepage-works">
 								<Works />
 							</div>
