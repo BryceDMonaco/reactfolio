@@ -24,7 +24,7 @@ const INFO = {
 	about: {
 		title: "Howdy, I'm Bryce!",
 		description:
-			"I am a Software Engineer in the Reno, Nevada area currently working in the Aerospace and Defense industry. In my free-time, I love to work on personal projects, develop game prototypes in Unity with C# or Unreal Engine with C++, 3D print, garden, and play hockey.",		
+			"I am a Software Engineer in the Reno, Nevada area currently working in the Aerospace and Defense industry. In my free-time, I love to work on personal projects, develop game prototypes in Unity with C# or Unreal Engine with C++, 3D print, garden, and play hockey.\n\nI graduated from the Univesity of Nevada, Reno in 2019 with a B.S. in Computer Science and Engineering and a Mathematics minor.",		
 	},
 
 	articles: {
