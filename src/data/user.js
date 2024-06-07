@@ -9,7 +9,7 @@ const INFO = {
 	socials: {
 		twitter: "https://twitter.com/",
 		github: "https://github.com/BryceDMonaco",
-		linkedin: "https://linkedin.com/BryceMonaco",
+		linkedin: "https://www.linkedin.com/in/brycemonaco",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "Software Engineer, Servant Leader, Creative Problem-Solver",
 		description:
-			"I am a Software Engineer with significant experience in Java, C++, C#, Python, and Docker used to develop front and backend applications with multiple shipped projects covering signal processing, maintenance software, full-system simulation software, and distributed systems. On my own time I enjoy developing games in Unity and Unreal Engine and love to play hockey. I am always looking to take on new challenges and to find ways to learn and improve.",
+			"I am a Software Engineer in Reno, Nevada with significant experience in Java, C++, C#, Python, and Docker used to develop front and backend applications with multiple shipped projects covering signal processing, maintenance software, full-system simulation software, and distributed systems. On my own time I enjoy developing games in Unity and Unreal Engine and love to play hockey. I am always looking to take on new challenges and to find ways to learn and improve.",
 	},
 
 	about: {
