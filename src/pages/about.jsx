@@ -46,7 +46,12 @@ const About = () => {
 								</div>
 
 								<div className="paragraph about-subtitle">
-									{INFO.about.description}
+									{INFO.about.description.split('\n').map((line, index) => (
+										<React.Fragment key={index}>
+											{line}
+											<br />
+										</React.Fragment>
+									))}
 								</div>
 							</div>
 
