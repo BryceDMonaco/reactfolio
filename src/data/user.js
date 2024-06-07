@@ -1,82 +1,64 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Bryce Monaco's Portfolio",
+		name: "Bryce Monaco",
+		email: "BryceDMonaco@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/BryceDMonaco",
+		linkedin: "https://linkedin.com/BryceMonaco",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Software Engineer, Servant Leader, Creative Problem-Solver",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a Software Engineer with significant experience in Java, C++, C#, Python, and Docker used to develop front and backend applications with multiple shipped projects covering signal processing, maintenance software, full-system simulation software, and distributed systems. On my own time I enjoy developing games in Unity and Unreal Engine and love to play hockey. I am always looking to take on new challenges and to find ways to learn and improve.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "Howdy, I'm Bryce!",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I am a Software Engineer in the Reno, Nevada area currently working in the Aerospace and Defense industry. In my free-time, I love to work on personal projects, develop game prototypes in Unity with C# or Unreal Engine with C++, 3D print, garden, and play hockey.",		
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Every now and then I have an idea that I think should be shared!",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Chronological collection of anything I thought was interesting enough to write about.",
 	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Diem",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A tool for Dungeons and Dragons DMs to help keep track of the monsters in their world(s).",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/BryceDMonaco/DMTool",
 		},
 
 		{
-			title: "Project 2",
+			title: "VRTogether",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"A multi-platform Virtual Reality (VR) game where players on their phones can play with friends using VR headsets.",
+			logo: "https://cdn.sanity.io/images/fuvbjjlp/production/aa5ce86e0add266e09ffa222609af4cc94befc7b-250x282.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/pixelgriffin/VRTogether",
 		},
 
 		{
-			title: "Project 3",
+			title: "Unity Steering Behaviors",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"My implementations of steering behaviors described by Craig Reynolds. Reusable in any Unity project.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
 			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/BryceDMonaco/SteeringBehaviors",
 		},
 	],
 };

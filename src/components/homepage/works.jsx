@@ -15,28 +15,54 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
-								alt="facebook"
+								src="./snc.svg"
+								alt="SNC"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">Sierra Nevada Corporation</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Software Engineer III
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">Jan 2024 - Present</div>
 						</div>
 
 						<div className="work">
 							<img
-								src="./twitter.png"
-								alt="twitter"
+								src="./snc.svg"
+								alt="SNC"
 								className="work-image"
 							/>
-							<div className="work-title">Twitter</div>
+							<div className="work-title">Sierra Nevada Corporation</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Software Engineer II
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">Oct 2020 - Jan 2024</div>
+						</div>
+
+						<div className="work">
+							<img
+								src="./snc.svg"
+								alt="SNC"
+								className="work-image"
+							/>
+							<div className="work-title">Sierra Nevada Corporation</div>
+							<div className="work-subtitle">
+								Software Engineer I
+							</div>
+							<div className="work-duration">June 2019 - Oct 2020</div>
+						</div>
+
+						<div className="work">
+							<img
+								src="./snc.svg"
+								alt="SNC"
+								className="work-image"
+							/>
+							<div className="work-title">Sierra Nevada Corporation</div>
+							<div className="work-subtitle">
+								Software Engineer Intern
+							</div>
+							<div className="work-duration">May 2018 - June 2019</div>
 						</div>
 					</div>
 				}
