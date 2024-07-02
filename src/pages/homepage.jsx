@@ -11,13 +11,16 @@ import {
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { faFile } from '@fortawesome/free-regular-svg-icons';
+import {
+	faFile,
+} from '@fortawesome/free-regular-svg-icons';
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
+import School from "../components/homepage/school";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
@@ -99,7 +102,12 @@ const Homepage = () => {
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									{INFO.homepage.description.split('\n').map((line, index) => (
+										<React.Fragment key={index}>
+											{line}
+											<br />
+										</React.Fragment>
+									))}
 								</div>
 							</div>
 
@@ -174,6 +182,10 @@ const Homepage = () => {
 								))}
 							</div>
 							*/}
+
+							<div className="homepage-school">
+								<School />
+							</div>
 							<div className="homepage-works">
 								<Works />
 							</div>

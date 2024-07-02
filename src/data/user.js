@@ -18,13 +18,13 @@ const INFO = {
 	homepage: {
 		title: "Software Engineer, Servant Leader, Creative Problem-Solver",
 		description:
-			"I am a Software Engineer in Reno, Nevada with significant experience in Java, C++, C#, Python, and Docker used to develop front and backend applications with multiple shipped projects covering signal processing, maintenance software, full-system simulation software, and distributed systems. On my own time I enjoy developing games in Unity and Unreal Engine and love to play hockey. I am always looking to take on new challenges and to find ways to learn and improve.",
+			"I am a Software Engineer in Reno, Nevada with significant experience in Java, C++, C#, Python, and Docker used to develop front and backend applications with multiple shipped projects covering signal processing, maintenance software, full-system simulation software, and distributed systems.\n\nI graduated from the Univesity of Nevada, Reno in 2019 with a B.S. in Computer Science and Engineering and a Mathematics minor.\n\nOn my own time I enjoy developing games in Unity and Unreal Engine, gardening, 3D designing and printing, and I love to play hockey. I am always looking to take on new challenges and to find ways to learn and improve.",
 	},
 
 	about: {
 		title: "Howdy, I'm Bryce!",
 		description:
-			"I am a Software Engineer in the Reno, Nevada area currently working in the Aerospace and Defense industry. In my free-time, I love to work on personal projects, develop game prototypes in Unity with C# or Unreal Engine with C++, 3D print, garden, and play hockey.\n\nI graduated from the Univesity of Nevada, Reno in 2019 with a B.S. in Computer Science and Engineering and a Mathematics minor.",		
+			"I am a Software Engineer in the Reno, Nevada area currently working in the Aerospace and Defense industry. In my free-time, I love to work on personal projects, develop game prototypes in Unity with C# or Unreal Engine with C++, 3D print, garden, and play hockey.",		
 	},
 
 	articles: {

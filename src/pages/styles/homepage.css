@@ -71,7 +71,10 @@
 }
 
 .homepage-after-title {
-	display: flex;
+	display: grid;
+    grid-template-columns: repeat(1fr, 2);
+    grid-gap: 0px; /* Gap between grid items */
+	justify-content: center;
 }
 
 .homepage-projects {
@@ -87,6 +90,11 @@
 
 .homepage-article {
 	padding-bottom: 5px;
+}
+
+.homepage-school {
+	flex-basis: 600px;
+	padding-top: 30px;
 }
 
 .homepage-works {
@@ -148,4 +156,24 @@
 		margin-left: -25px;
 		margin-right: -25px;
 	}
+
+	.homepage-school {
+		flex-basis: auto;
+		margin-left: -25px;
+		margin-right: -25px;
+	}
+}
+
+/* Horizontal layout for larger screens */
+@media screen and (min-width: 400px) {
+    .homepage-after-title {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust min and max width as needed */
+    }
+}
+
+/* Vertical layout for smaller screens */
+@media screen and (max-width: 399px) {
+    .homepage-after-title {
+        grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+    }
 }
